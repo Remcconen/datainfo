@@ -15,3 +15,16 @@ x VARCHAR(10), y VARCHAR(10), violation BOOLEAN, motivation VARCHAR(200));
 
 CREATE TABLE F2 (
 x VARCHAR(10), y VARCHAR(10), violation BOOLEAN, motivation VARCHAR(200));
+
+CREATE TABLE R2a(
+E INT, A INT);
+
+CREATE TABLE R2b(
+B INT, C INT, E INT, F INT);
+
+CREATE TABLE F2a (
+x VARCHAR(10), y VARCHAR(10), violation BOOLEAN, motivation VARCHAR(200));
+
+CREATE TABLE F2b (
+x VARCHAR(10), y VARCHAR(10), violation BOOLEAN, motivation VARCHAR(200));
+
